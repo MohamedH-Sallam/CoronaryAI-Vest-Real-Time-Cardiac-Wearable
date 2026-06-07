@@ -8,6 +8,11 @@ Welcome to the engineering documentation hub for the CoronaryAI Vest (Coronary U
 ---
 
 ## 🎥 System Operation & Prototype
+
+![Full Prototype](./execution_1.png)
+
+![Full Prototype](./execution_2.png)
+
 ![Full Prototype](./ieee_coronary_vest_prototype.png)
 
 *Fully integrated CoronaryAI Vest prototype worn on-body, demonstrating the ergonomic textile design, multi-lead dry-electrode placement, and onboard processing housing.*
@@ -34,7 +39,7 @@ Welcome to the engineering documentation hub for the CoronaryAI Vest (Coronary U
 * **Wearable Architecture:** Engineered an ergonomic textile life vest tailored for patients with Coronary Artery Disease (CAD), implementing dry-electrode arrays to capture multi-lead biopotentials while minimizing motion artifacts during active daily mobility.
 * **Therapeutic Automation:** Integrated a custom, manually-fabricated micro-gas pump designed to automatically dose a fast-acting anti-coma gas payload during acute emergency thresholds, preventing sudden, dangerous glucose fluctuations.
 * **Multi-Parametric Verification:** Evaluated hardware response times across continuous telemetry metrics, including heart rate fluctuations, oxygen saturation ($SpO_2$), estimated glucose levels, and localized cholesterol trends.
-* **System Specification Matrix:** ![Project Brochure & Technical Specifications](./project_brochure.jpg)
+* **System Specification Matrix:** ![Project Brochure & Technical Specifications](./project_brochure.jpeg)
 Official project brief detailing CAD problem identification, system engineering requirements (response latency, heart rate, $SpO_2$, cholesterol, and glucose estimation metrics), and institutional developer origins.*
 
 ### 2. Real-Time Signal Processing & Machine Learning

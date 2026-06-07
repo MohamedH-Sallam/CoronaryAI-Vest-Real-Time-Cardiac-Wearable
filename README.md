@@ -11,7 +11,7 @@ Welcome to the engineering documentation hub for the CoronaryAI Vest. This repos
 ---
 
 ## 📄 Core Project Assets
-* 🚀 **[Click Here to View the Full Technical Report](./Real-Time Wearable T-Shirt for Cardiac Monitoring - Formal Report.pdf)**
+* 🚀 **[Click Here to View the Full Technical Report](./Real-Time_Wearable_T-Shirt_for_Cardiac_Monitoring_Formal_Report.pdf)**
 * 💻 **[View Edge AI Inference Code Snippet](#embedded-machine-learning-implementation)**
 * 📊 **[View Signal Processing & ML Pipeline Architecture](./ml_pipeline_architecture.png)**
 

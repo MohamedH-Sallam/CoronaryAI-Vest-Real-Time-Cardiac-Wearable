@@ -50,13 +50,11 @@ Official project brief detailing CAD problem identification, system engineering 
 ### 3. Embedded Software & Wireless Telemetry
 * **Firmware Architecture:** Developed ultra-low-power firmware optimized for synchronous high-speed ADC polling, real-time algorithmic filtering, and safety-threshold evaluations within a strict deterministic time window.
 * **Telemetry & Execution:**
-  ![Embedded C++ Code](./firmware_snippet.png)
   *Embedded implementation of the core execution loop managing raw telemetry streams, handling edge inference routines, and packaging encrypted health data packets for Bluetooth Low Energy (BLE) broadcasting.*
 
 ### 4. Cross-Platform Mobile Application (mHealth)
-* **Real-Time Visualization:** Programmed a mobile dashboard that continuously decodes BLE telemetry, rendering live cardiac waveforms and comparative tracking graphs (Actual vs. Estimated metrics).
-* **Patient-Centric Modules:** Integrated a comprehensive patient suite featuring an AI medical assistant, structural medicine reminder schedules, localized weather/fitness logs (Walking, Running, Swimming, Yoga), and localized telemedicine API maps for immediate emergency physician routing.
-
+* **Flutter Ecosystem UI/UX:** Developed a comprehensive, patient-centric mobile application built on the **Flutter framework** to continuously decode incoming BLE telemetry, rendering live cardiac waveforms and comparative tracking graphs (Actual vs. Estimated metrics).
+* **Patient-Centric Modules:** Integrated a comprehensive patient suite featuring an AI medical assistant, structural medicine reminder schedules, localized fitness logs (Walking, Running, Swimming, Yoga), and integrated telemedicine maps for immediate emergency physician routing.
 ---
 
 ## 👥 Core Project Contributors

@@ -9,7 +9,7 @@ Project/Topic: Heart AI Innov. (Based on handwritten entry)
 Event Dates: 8th - 9th May 2025
 Organized by: IEEE-HKN Mu Beta (Egypt-Section)
 Venue: Arab Academy for Science, Technology & Maritime Transport, Alexandria, Egypt.
-A huge thank you to the organizers! [View Certificate](./1st_place_certificate.png)
+A huge thank you to the organizers! [View Certificate](./1st_place_certificate.jpeg)
 
 ## 🎥 System Operation & Prototype
 ![Full Prototype](./ieee_coronary_vest_prototype.png)

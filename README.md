@@ -1,55 +1,70 @@
 # CoronaryAI Vest — Real-Time Cardiac Wearable
 **Biomedical Engineering | Edge AI & Signal Processing | Embedded Firmware | Mobile UI**
 
-Welcome to the engineering documentation hub for the CoronaryAI Vest. This repository showcases the end-to-end development of an intelligent, wearable medical device—spanning analog front-end (AFE) biomedical hardware design, real-time digital signal processing (DSP), edge machine learning for arrhythmia classification, low-power wireless firmware deployment, and mobile application integration.
+Welcome to the engineering documentation hub for the CoronaryAI Vest (Coronary Ultra-Care Suite - CUCS). This repository showcases the end-to-end development of an intelligent, wearable medical life vest designed to mitigate the risks of Coronary Artery Disease (CAD). The system spans multi-parametric physiological sensing (ECG, SpO2, glucose, and cholesterol), real-time digital signal processing (DSP), edge machine learning for arrhythmia classification, automated emergency therapeutic dosing, and a cross-platform mobile health (mHealth) ecosystem.
 
-🏆 **1st Place Project Award:** Recognized for excellence in biomedical engineering and edge AI implementation. Proud to receive this Certificate of Appreciation for contributing as an IC Winner (1st Place) in the regional round of YESIST12 2025.
-Abstract ID: 9996
-Project/Topic: Heart AI Innov. (Based on handwritten entry)
-Event Dates: 8th - 9th May 2025
-Organized by: IEEE-HKN Mu Beta (Egypt-Section)
-Venue: Arab Academy for Science, Technology & Maritime Transport, Alexandria, Egypt.
-A huge thank you to the organizers! [View Certificate](./1st_place_certificate.jpeg)
+🏆 **1st Place Project Award:** Recognized for excellence in biomedical engineering and edge AI implementation as the **1st Place Winner** in the regional round of **IEEE YESIST12 2025** (Abstract ID: 9996 | Topic: Heart AI Innov.). Organized by IEEE-HKN Mu Beta (Egypt Section) at the Arab Academy for Science, Technology & Maritime Transport, Alexandria, Egypt. [View Certificate](./1st_place_certificate.jpeg)
+
+---
 
 ## 🎥 System Operation & Prototype
 ![Full Prototype](./ieee_coronary_vest_prototype.png)
 
-*Fully integrated CoronaryAI Vest worn on-body, demonstrating the ergonomic fit and active dry-electrode sensor placement.*
+*Fully integrated CoronaryAI Vest prototype worn on-body, demonstrating the ergonomic textile design, multi-lead dry-electrode placement, and onboard processing housing.*
+
+---
+
+## 📱 Mobile App Ecosystem & User Journey
+![Mobile App Dashboard](./coronary_app_dashboard.png)
+
+*The 5-stage patient mobile interface featuring real-time diagnostic telemetry, dynamic actual vs. estimated heart rate visualization, AI fitness coaching, and localized telemedicine integration.*
 
 ---
 
 ## 📄 Core Project Assets
 * 🚀 **[Click Here to View the Full Technical Report](./Real-Time_Wearable_T-Shirt_for_Cardiac_Monitoring_-_Formal_Report.pdf)**
-* 📱 **[View Mobile App Dashboard](./coronary_app_dashboard.png)**
-* 💻 **[View Edge AI Inference Code Snippet](#embedded-software--wireless-telemetry)**
+* 📱 **[View High-Res Mobile App Dashboard](./coronary_app_dashboard.png)**
+* 💻 **[View Core Firmware Implementation Snippet](#3-embedded-software--wireless-telemetry)**
 
 ---
 
 ## ⚙️ Core Engineering Achievements
 
-### 1. Biomedical Hardware & Sensor Integration
-* **Wearable Architecture:** Designed a lightweight, ergonomic textile vest integrating dry-electrode arrays optimized for continuous multi-lead ECG acquisition with minimal motion artifacts.
-* **Analog Front-End (AFE):** Configured low-noise instrumentation amplifiers and hardware shielding to maximize Common Mode Rejection Ratio (CMRR), isolating clean cardiac biopotentials from environmental electromagnetic interference.
+### 1. Biomedical Hardware & Multi-Parametric Sensing
+* **Wearable Architecture:** Engineered an ergonomic textile life vest tailored for patients with Coronary Artery Disease (CAD), implementing dry-electrode arrays to capture multi-lead biopotentials while minimizing motion artifacts during active daily mobility.
+* **Therapeutic Automation:** Integrated a custom, manually-fabricated micro-gas pump designed to automatically dose a fast-acting anti-coma gas payload during acute emergency thresholds, preventing sudden, dangerous glucose fluctuations.
+* **Multi-Parametric Verification:** Evaluated hardware response times across continuous telemetry metrics, including heart rate fluctuations, oxygen saturation ($SpO_2$), estimated glucose levels, and localized cholesterol trends.
 
 ### 2. Real-Time Signal Processing & Machine Learning
-* **DSP Pipeline:** Engineered digital bandpass and notch filters to eliminate baseline wander and 50/60 Hz power-line hum, paired with a robust Pan-Tompkins style algorithm for real-time R-peak and QRS complex detection.
-* **Edge AI Classification:** Developed and trained a lightweight Convolutional Neural Network (CNN) optimized for microcontroller deployment, achieving high-accuracy, low-latency classification of cardiac anomalies (e.g., AFib, PVCs).
+* **DSP Filter Pipeline:** Developed high-attenuation digital bandpass and notch filters to clean incoming signals, neutralizing baseline wander and 50/60 Hz power-line interference.
+* **QRS Complex Detection:** Implemented a hardware-optimized Pan-Tompkins style algorithm for real-time R-peak tracking and instant heart rate estimation.
+* **Edge AI Inference:** Trained a lightweight Convolutional Neural Network (CNN) compressed for low-power microcontroller environments, delivering high-accuracy, low-latency classification of critical cardiac anomalies (e.g., AFib, PVCs).
 
 ### 3. Embedded Software & Wireless Telemetry
-* **Firmware Architecture:** Developed ultra-low-power microcontroller firmware managing synchronous ADC sampling, algorithmic filtering, and ML inference blocks within a strict real-time execution window.
-* **Control Loop & Telemetry Execution:**
+* **Firmware Architecture:** Developed ultra-low-power firmware optimized for synchronous high-speed ADC polling, real-time algorithmic filtering, and safety-threshold evaluations within a strict deterministic time window.
+* **Telemetry & Execution:**
   ![Embedded C++ Code](./firmware_snippet.png)
-  *Embedded implementation of the core execution loop processing raw telemetry, running edge inference, and packaging anomaly alerts via Bluetooth Low Energy (BLE).*
+  *Embedded implementation of the core execution loop managing raw telemetry streams, handling edge inference routines, and packaging encrypted health data packets for Bluetooth Low Energy (BLE) broadcasting.*
 
-### 4. Mobile Application & User Interface
-* **Real-Time Visualization:** Developed a cross-platform mobile application to receive BLE packets, rendering live ECG waveforms and instantaneous heart rate (BPM) metrics directly to the user's smartphone.
-* **Alert Management:** Integrated a dynamic UI/UX that visualizes AI-flagged cardiac anomalies in real-time, providing an accessible and immediate health monitoring dashboard for the end-user.
+### 4. Cross-Platform Mobile Application (mHealth)
+* **Real-Time Visualization:** Programmed a mobile dashboard that continuously decodes BLE telemetry, rendering live cardiac waveforms and comparative tracking graphs (Actual vs. Estimated metrics).
+* **Patient-Centric Modules:** Integrated a comprehensive patient suite featuring an AI medical assistant, structural medicine reminder schedules, localized weather/fitness logs (Walking, Running, Swimming, Yoga), and localized telemedicine API maps for immediate emergency physician routing.
+
+---
+
+## 👥 Core Project Contributors
+Developed by the engineering team:
+* **Ahmed Khaled**
+* **Mohamed Hatem**
+* **Mostafa Ibrahim**
+* 📧 Contact: `cucs.cad@gmail.com`
+* 📍 Project Origin: Hadayek October, Near Zewail City, 6th of October, Giza Governorate, Egypt.
 
 ---
 
 ## 📂 Repository Contents
 * `Real-Time Wearable T-Shirt for Cardiac Monitoring - Formal Report.pdf` — Comprehensive engineering blueprint containing schematics, PCB layouts, and clinical validation metrics.
-* `prototype_full.png` — High-resolution image of the fully integrated CoronaryAI Vest worn on-body.
-* `mobile_app_interface.png` — UI/UX screenshots of the mobile application displaying live cardiac telemetrics and AI classifications.
-* `1st_place_certificate.png` — Official documentation of the 1st Place award recognition for this project.
-* `firmware_snippet.png` — High-resolution layout of the core embedded C/C++ firmware loop.
+* `ieee_coronary_vest_prototype.png` — On-body hardware capture showing the fully integrated vest electronics and ergonomic textile layout.
+* `coronary_app_dashboard.png` — High-resolution layout of the complete mobile UI/UX user journey.
+* `1st_place_certificate.jpeg` — Official IEEE YESIST12 2025 1st Place award certification.
+* `firmware_snippet.png` — High-resolution layout of the core embedded C/C++ firmware control loop.

@@ -6,6 +6,13 @@ Welcome to the engineering documentation hub for the CoronaryAI Vest (Coronary U
 🏆 **1st Place Project Award:** Recognized for excellence in biomedical engineering and edge AI implementation as the **1st Place Winner** in the regional round of **IEEE YESIST12 2025** (Abstract ID: 9996 | Topic: Heart AI Innov.). Organized by IEEE-HKN Mu Beta (Egypt Section) at the Arab Academy for Science, Technology & Maritime Transport, Alexandria, Egypt. [View Certificate](./1st_place_certificate.jpeg)
 
 ---
+## 📄 Core Project Assets
+* 🚀 **[Click Here to View the Full Technical Report](./Real-Time_Wearable_T-Shirt_for_Cardiac_Monitoring_Formal_Report.pdf)**
+* 📱 **[View High-Res Mobile App Dashboard](./coronary_app_dashboard.png)**
+* 📊 **[View System Analysis & Validation Overview](./analysis_overview_report_summary.png)**
+* 💻 **[Project Brochure & Technical Specifications](./project_brochure.jpeg)**
+
+---
 
 ## 🎥 System Operation & Prototype
 
@@ -26,20 +33,13 @@ Welcome to the engineering documentation hub for the CoronaryAI Vest (Coronary U
 
 ---
 
-## 📄 Core Project Assets
-* 🚀 **[Click Here to View the Full Technical Report](./Real-Time_Wearable_T-Shirt_for_Cardiac_Monitoring_Formal_Report.pdf)**
-* 📱 **[View High-Res Mobile App Dashboard](./coronary_app_dashboard.png)**
-* 💻 **[View Core Firmware Implementation Snippet](#3-embedded-software--wireless-telemetry)**
-
----
-
 ## ⚙️ Core Engineering Achievements
 
 ### 1. Biomedical Hardware & Multi-Parametric Sensing
 * **Wearable Architecture:** Engineered an ergonomic textile life vest tailored for patients with Coronary Artery Disease (CAD), implementing dry-electrode arrays to capture multi-lead biopotentials while minimizing motion artifacts during active daily mobility.
 * **Therapeutic Automation:** Integrated a custom, manually-fabricated micro-gas pump designed to automatically dose a fast-acting anti-coma gas payload during acute emergency thresholds, preventing sudden, dangerous glucose fluctuations.
 * **Multi-Parametric Verification:** Evaluated hardware response times across continuous telemetry metrics, including heart rate fluctuations, oxygen saturation ($SpO_2$), estimated glucose levels, and localized cholesterol trends.
-* **System Specification Matrix:** ![Project Brochure & Technical Specifications](./project_brochure.jpeg)
+* **System Specification Matrix:** ![Project Brochure & Technical Specifications](./analysis_overview_report_summary.png)
 Official project brief detailing CAD problem identification, system engineering requirements (response latency, heart rate, $SpO_2$, cholesterol, and glucose estimation metrics), and institutional developer origins.*
 
 ### 2. Real-Time Signal Processing & Machine Learning

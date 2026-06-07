@@ -36,9 +36,9 @@ Welcome to the engineering documentation hub for the CoronaryAI Vest (Coronary U
 ## ⚙️ Core Engineering Achievements
 
 ### 1. Biomedical Hardware & Multi-Parametric Sensing
-* **Wearable Architecture:** Engineered an ergonomic textile life vest tailored for patients with Coronary Artery Disease (CAD), implementing dry-electrode arrays to capture multi-lead biopotentials while minimizing motion artifacts during active daily mobility.
+**Wearable Architecture:** Engineered an ergonomic textile life vest tailored for patients with Coronary Artery Disease (CAD), implementing dry-electrode arrays to capture multi-lead biopotentials while minimizing motion artifacts during active daily mobility.
+* **Non-Invasive Diagnostic Sensors:** Architected a predictive wearable measuring system utilizing **Near-Infrared (NIR) spectroscopy**. Executed dynamic tracking algorithms leveraging Beer-Lambert law principles alongside **660nm and 940nm internal IR arrays** to approximate systemic glucose and cholesterol levels entirely non-invasively.
 * **Therapeutic Automation:** Integrated a custom, manually-fabricated micro-gas pump designed to automatically dose a fast-acting anti-coma gas payload during acute emergency thresholds, preventing sudden, dangerous glucose fluctuations.
-* **Multi-Parametric Verification:** Evaluated hardware response times across continuous telemetry metrics, including heart rate fluctuations, oxygen saturation ($SpO_2$), estimated glucose levels, and localized cholesterol trends.
 * **System Specification Matrix:** ![Project Brochure & Technical Specifications](./analysis_overview_report_summary.png)
 Official project brief detailing CAD problem identification, system engineering requirements (response latency, heart rate, $SpO_2$, cholesterol, and glucose estimation metrics), and institutional developer origins.*
 

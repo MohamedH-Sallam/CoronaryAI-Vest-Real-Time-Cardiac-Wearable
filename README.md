@@ -11,7 +11,7 @@ Welcome to the engineering documentation hub for the CoronaryAI Vest. This repos
 ---
 
 ## 📄 Core Project Assets
-* 🚀 **[Click Here to View the Full Technical Report](./CoronaryAI_Vest_Technical_Report.pdf)**
+* 🚀 **[Click Here to View the Full Technical Report](./Real-Time Wearable T-Shirt for Cardiac Monitoring - Formal Report.pdf)**
 * 💻 **[View Edge AI Inference Code Snippet](#embedded-machine-learning-implementation)**
 * 📊 **[View Signal Processing & ML Pipeline Architecture](./ml_pipeline_architecture.png)**
 
@@ -38,7 +38,7 @@ Welcome to the engineering documentation hub for the CoronaryAI Vest. This repos
 ---
 
 ## 📂 Repository Contents
-* `CoronaryAI_Vest_Technical_Report.pdf` — Comprehensive engineering blueprint containing schematics, PCB layouts, and clinical validation metrics.
+* `Real-Time Wearable T-Shirt for Cardiac Monitoring - Formal Report.pdf` — Comprehensive engineering blueprint containing schematics, PCB layouts, and clinical validation metrics.
 * `hardware_demo.gif` — Visual proof of the wearable vest acquiring and analyzing data in real time.
 * `edge_inference_model.h` — Exported C++ array of the trained neural network optimized for edge microcontroller deployment.
 * `ml_pipeline_architecture.png` — Visual schematic of the DSP filter stages and neural network architecture.

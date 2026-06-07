@@ -22,7 +22,7 @@ Welcome to the engineering documentation hub for the CoronaryAI Vest (Coronary U
 ---
 
 ## 📄 Core Project Assets
-* 🚀 **[Click Here to View the Full Technical Report](./Real-Time_Wearable_T-Shirt_for_Cardiac_Monitoring_-_Formal_Report.pdf)**
+* 🚀 **[Click Here to View the Full Technical Report](./Real-Time_Wearable_T-Shirt_for_Cardiac_Monitoring_Formal_Report.pdf)**
 * 📱 **[View High-Res Mobile App Dashboard](./coronary_app_dashboard.png)**
 * 💻 **[View Core Firmware Implementation Snippet](#3-embedded-software--wireless-telemetry)**
 
@@ -34,6 +34,8 @@ Welcome to the engineering documentation hub for the CoronaryAI Vest (Coronary U
 * **Wearable Architecture:** Engineered an ergonomic textile life vest tailored for patients with Coronary Artery Disease (CAD), implementing dry-electrode arrays to capture multi-lead biopotentials while minimizing motion artifacts during active daily mobility.
 * **Therapeutic Automation:** Integrated a custom, manually-fabricated micro-gas pump designed to automatically dose a fast-acting anti-coma gas payload during acute emergency thresholds, preventing sudden, dangerous glucose fluctuations.
 * **Multi-Parametric Verification:** Evaluated hardware response times across continuous telemetry metrics, including heart rate fluctuations, oxygen saturation ($SpO_2$), estimated glucose levels, and localized cholesterol trends.
+* **System Specification Matrix:** ![Project Brochure & Technical Specifications](./project_brochure.jpg)
+Official project brief detailing CAD problem identification, system engineering requirements (response latency, heart rate, $SpO_2$, cholesterol, and glucose estimation metrics), and institutional developer origins.*
 
 ### 2. Real-Time Signal Processing & Machine Learning
 * **DSP Filter Pipeline:** Developed high-attenuation digital bandpass and notch filters to clean incoming signals, neutralizing baseline wander and 50/60 Hz power-line interference.

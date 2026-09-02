@@ -28,6 +28,8 @@
 
 **Regional Round** · *Heart AI Innov.* · Abstract ID **9996**
 
+**Qualified for the International Round in Malaysia**
+
 <br>
 
 <img src="./docs/awards/1st_place_certificate.jpeg" alt="IEEE YESIST12 2025 1st place certificate" width="320">
@@ -59,7 +61,7 @@ The project was developed in stages, moving from the initial concept to a workin
 | **05** | **Edge AI** | Developed a lightweight CNN pipeline for selected rhythm abnormalities |
 | **06** | **Mobile App** | Built the Flutter interface and BLE data connection |
 | **07** | **Prototype & Testing** | Combined the subsystems and evaluated the complete prototype |
-| **08** | **Competition** | Presented the project at IEEE YESIST12 2025 and achieved 1st place |
+| **08** | **Competition** | Presented the project at IEEE YESIST12 2025, achieved 1st place, and qualified for the International Round in Malaysia |
 
 ---
 

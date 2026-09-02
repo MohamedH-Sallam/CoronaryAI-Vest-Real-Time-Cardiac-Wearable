@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <a href="./Real-Time_Wearable_T-Shirt_for_Cardiac_Monitoring_Formal_Report.pdf">Technical Report</a> ·
-  <a href="./coronary_app_dashboard.png">Mobile App</a> ·
-  <a href="./1st_place_certificate.jpeg">IEEE YESIST12 2025</a>
+  <a href="./docs/technical/Real-Time_Wearable_T-Shirt_for_Cardiac_Monitoring_Formal_Report.pdf">Technical Report</a> ·
+  <a href="./media/app/coronary_app_dashboard.png">Mobile App</a> ·
+  <a href="./docs/awards/1st_place_certificate.jpeg">IEEE YESIST12 2025</a>
 </p>
 
 ---
@@ -41,12 +41,13 @@ The project was built to explore how real-time physiological data can be collect
 ## System
 
 <p align="center">
-  <img src="./ieee_coronary_vest_prototype.png" alt="CoronaryAI Vest prototype" width="720">
+  <img src="./media/prototype/ieee_coronary_vest_prototype.png" alt="CoronaryAI Vest prototype" width="520">
 </p>
 
 <p align="center">
-  <img src="./execution_1.png" alt="CoronaryAI Vest prototype" width="360">
-  <img src="./execution_2.png" alt="CoronaryAI Vest prototype" width="360">
+  <img src="./media/prototype/execution_1.png" alt="CoronaryAI Vest prototype" width="280">
+  &nbsp;&nbsp;
+  <img src="./media/prototype/execution_2.png" alt="CoronaryAI Vest prototype" width="280">
 </p>
 
 The prototype brings the sensing electrodes, electronics, and wearable structure together into a single vest designed for on-body data collection.
@@ -114,22 +115,52 @@ These values are **experimental estimates only** and are not intended to replace
 
 ---
 
+## Project Structure
+
+```text
+CoronaryAI-Vest-Real-Time-Cardiac-Wearable/
+│
+├── README.md
+│
+├── docs/
+│   ├── technical/
+│   │   └── Real-Time_Wearable_T-Shirt_for_Cardiac_Monitoring_Formal_Report.pdf
+│   ├── analysis/
+│   │   └── analysis_overview_report_summary.png
+│   ├── brochure/
+│   │   └── project_brochure.jpeg
+│   └── awards/
+│       └── 1st_place_certificate.jpeg
+│
+└── media/
+    ├── prototype/
+    │   ├── ieee_coronary_vest_prototype.png
+    │   ├── execution_1.png
+    │   └── execution_2.png
+    └── app/
+        └── coronary_app_dashboard.png
+```
+
+The repository is kept simple and organized by purpose: **documentation** goes under `docs/`, while project images and visual assets are grouped under `media/`.
+
+---
+
 ## Project Files
 
 | Resource | Description |
 | --- | --- |
-| 📄 [Technical Report](./Real-Time_Wearable_T-Shirt_for_Cardiac_Monitoring_Formal_Report.pdf) | Full technical report |
-| 📱 [Mobile App Dashboard](./coronary_app_dashboard.png) | Application interface |
-| 📊 [System Analysis](./analysis_overview_report_summary.png) | Requirements and system analysis |
-| 📘 [Project Brochure](./project_brochure.jpeg) | Project overview and specifications |
-| 🏆 [Award Certificate](./1st_place_certificate.jpeg) | IEEE YESIST12 2025 first-place certificate |
+| 📄 [Technical Report](./docs/technical/Real-Time_Wearable_T-Shirt_for_Cardiac_Monitoring_Formal_Report.pdf) | Full technical report |
+| 📱 [Mobile App Dashboard](./media/app/coronary_app_dashboard.png) | Application interface |
+| 📊 [System Analysis](./docs/analysis/analysis_overview_report_summary.png) | Requirements and system analysis |
+| 📘 [Project Brochure](./docs/brochure/project_brochure.jpeg) | Project overview and specifications |
+| 🏆 [Award Certificate](./docs/awards/1st_place_certificate.jpeg) | IEEE YESIST12 2025 first-place certificate |
 
 ---
 
 ## Mobile Application
 
 <p align="center">
-  <img src="./coronary_app_dashboard.png" alt="CoronaryAI mobile application dashboard" width="820">
+  <img src="./media/app/coronary_app_dashboard.png" alt="CoronaryAI mobile application dashboard" width="560">
 </p>
 
 The companion Flutter application is used to view incoming wearable data and interact with the system through a simple patient-facing interface.

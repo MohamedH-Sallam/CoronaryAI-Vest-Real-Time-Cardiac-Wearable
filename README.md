@@ -1,6 +1,6 @@
 <div align="center">
 
-# ❤️ CoronaryAI Vest
+# CoronaryAI Vest
 
 ### Real-Time Wearable Cardiac Monitoring
 
@@ -20,16 +20,25 @@
 
 ## 🏆 Project Highlight
 
-<div align="center">
+<table align="center">
+<tr>
+<td align="center" style="border: 1px solid #d0d7de; border-radius: 8px; padding: 18px;">
 
-**🥇 1st Place — IEEE YESIST12 2025**  
-Regional Round · *Heart AI Innov.* · Abstract ID **9996**
+### 1st Place — IEEE YESIST12 2025
 
-</div>
+**Regional Round** · *Heart AI Innov.* · Abstract ID **9996**
+
+<br>
+
+<img src="./docs/awards/1st_place_certificate.jpeg" alt="IEEE YESIST12 2025 1st place certificate" width="320">
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📌 Overview
+## Overview
 
 **CoronaryAI Vest** is a wearable cardiac monitoring prototype developed to explore continuous physiological-data collection and real-time analysis in a portable system.
 
@@ -37,44 +46,44 @@ The project brings together custom wearable hardware, ECG acquisition, digital s
 
 ---
 
-## 🧭 Development Timeline
+## Development Timeline
 
 The project was developed in stages, moving from the initial concept to a working wearable prototype and connected application.
 
 | Stage | Focus | Result |
 |:---:|---|---|
-| **01** | 💡 **Concept** | Defined the wearable cardiac-monitoring idea and system requirements |
-| **02** | 🧩 **System Design** | Planned sensing, embedded processing, communication, and application layers |
-| **03** | 🛠️ **Hardware** | Integrated ECG electrodes, sensors, embedded electronics, and wearable structure |
-| **04** | 📈 **Signal Processing** | Implemented filtering, QRS detection, R-peak detection, and heart-rate calculation |
-| **05** | 🧠 **Edge AI** | Developed a lightweight CNN pipeline for selected rhythm abnormalities |
-| **06** | 📱 **Mobile App** | Built the Flutter interface and BLE data connection |
-| **07** | 🧪 **Prototype & Testing** | Combined the subsystems and evaluated the complete prototype |
-| **08** | 🏆 **Competition** | Presented the project at IEEE YESIST12 2025 and achieved 1st place |
+| **01** | **Concept** | Defined the wearable cardiac-monitoring idea and system requirements |
+| **02** | **System Design** | Planned sensing, embedded processing, communication, and application layers |
+| **03** | **Hardware** | Integrated ECG electrodes, sensors, embedded electronics, and wearable structure |
+| **04** | **Signal Processing** | Implemented filtering, QRS detection, R-peak detection, and heart-rate calculation |
+| **05** | **Edge AI** | Developed a lightweight CNN pipeline for selected rhythm abnormalities |
+| **06** | **Mobile App** | Built the Flutter interface and BLE data connection |
+| **07** | **Prototype & Testing** | Combined the subsystems and evaluated the complete prototype |
+| **08** | **Competition** | Presented the project at IEEE YESIST12 2025 and achieved 1st place |
 
 ---
 
-## 🔬 Prototype
+## Prototype
 
-<div align="center">
-
-<img src="./media/prototype/ieee_coronary_vest_prototype.png" alt="CoronaryAI Vest prototype" width="520">
-
-<br><br>
-
-<img src="./media/prototype/execution_1.png" alt="CoronaryAI Vest prototype testing" width="300">
-&nbsp;&nbsp;&nbsp;
-<img src="./media/prototype/execution_2.png" alt="CoronaryAI Vest prototype testing" width="300">
-
-</div>
-
-<br>
+<table align="center">
+<tr>
+<td align="center" style="border: 1px solid #d0d7de; padding: 8px;">
+<img src="./media/prototype/ieee_coronary_vest_prototype.png" alt="CoronaryAI Vest prototype" width="260">
+</td>
+<td align="center" style="border: 1px solid #d0d7de; padding: 8px;">
+<img src="./media/prototype/execution_1.png" alt="CoronaryAI Vest prototype testing" width="260">
+</td>
+<td align="center" style="border: 1px solid #d0d7de; padding: 8px;">
+<img src="./media/prototype/execution_2.png" alt="CoronaryAI Vest prototype testing" width="260">
+</td>
+</tr>
+</table>
 
 The prototype combines the textile vest, sensing electrodes, embedded electronics, and supporting hardware into one wearable platform.
 
 ---
 
-## ⚙️ System Architecture
+## System Architecture
 
 <div align="center">
 
@@ -125,13 +134,15 @@ Processed measurements are transmitted from the embedded system to the mobile ap
 
 ---
 
-## 📱 Mobile Application
+## Mobile Application
 
-<div align="center">
-
-<img src="./media/app/coronary_app_dashboard.png" alt="CoronaryAI mobile application dashboard" width="560">
-
-</div>
+<table align="center">
+<tr>
+<td align="center" style="border: 1px solid #d0d7de; padding: 8px;">
+<img src="./media/app/coronary_app_dashboard.png" alt="CoronaryAI mobile application dashboard" width="520">
+</td>
+</tr>
+</table>
 
 The Flutter application provides a simple interface for viewing incoming wearable data and interacting with the monitoring system.
 
@@ -146,15 +157,15 @@ The Flutter application provides a simple interface for viewing incoming wearabl
 
 ---
 
-## 🧪 Experimental Measurements
+## Experimental Measurements
 
 The project also explores NIR-based estimation of **glucose and cholesterol** using 660 nm and 940 nm light sources.
 
-> ⚠️ These are **experimental estimates only** and are not intended to replace clinical measurements or diagnostic equipment.
+> These are **experimental estimates only** and are not intended to replace clinical measurements or diagnostic equipment.
 
 ---
 
-## 📚 Documentation & Project Files
+## Documentation & Project Files
 
 ```text
 CoronaryAI-Vest-Real-Time-Cardiac-Wearable/
@@ -184,7 +195,7 @@ CoronaryAI-Vest-Real-Time-Cardiac-Wearable/
         └── coronary_app_dashboard.png
 ```
 
-### 📄 Documentation
+### Documentation
 
 - [Technical Report](./docs/technical/Real-Time_Wearable_T-Shirt_for_Cardiac_Monitoring_Formal_Report.pdf)
 - [System Analysis](./docs/analysis/analysis_overview_report_summary.png)
@@ -193,16 +204,16 @@ CoronaryAI-Vest-Real-Time-Cardiac-Wearable/
 
 ---
 
-## 👥 Team
+## Team
 
 **Ahmed Khaled · Mohamed Hatem · Mostafa Ibrahim**
 
-📍 Hadayek October, Giza, Egypt  
-✉️ cucs.cad@gmail.com
+Hadayek October, Giza, Egypt  
+`cucs.cad@gmail.com`
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 CoronaryAI Vest is an **engineering research and prototyping project**. It is not a certified medical device and should not be used for clinical diagnosis or treatment.
 
